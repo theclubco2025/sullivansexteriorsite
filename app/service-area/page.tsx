@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 export const metadata: Metadata = { title: "Service Area" };
 export default function ServiceAreaPage() {
   return <section className="container-shell py-14"><h1 className="text-3xl font-bold">Service Area</h1>

@@ -1,4 +1,4 @@
-﻿# Sullivan’s Exterior Cleaning and Landscape
+# Sullivan’s Exterior Cleaning and Landscape
 
 Next.js + TypeScript + Tailwind project foundation with:
 - Homepage, Services, Service Area, Contact, Success pages

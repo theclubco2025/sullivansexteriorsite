@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { business } from "@/config/site";
 import { QuoteForm, SubscriptionForm } from "@/components/forms/Forms";
 export const metadata: Metadata = { title: "Contact & Request Quote" };

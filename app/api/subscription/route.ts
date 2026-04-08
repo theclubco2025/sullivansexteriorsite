@@ -1,4 +1,4 @@
-﻿import { NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { parseOptionalUpload } from "@/lib/formData";
 import { subscriptionSchema } from "@/lib/validation";
 import { sendLeadEmail } from "@/lib/mail";

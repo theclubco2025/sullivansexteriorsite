@@ -1,4 +1,4 @@
-﻿import { business, services } from "@/config/site";
+import { business, services } from "@/config/site";
 
 export default function HomePage() {
   return (

@@ -1,4 +1,4 @@
-﻿export const business = {
+export const business = {
   officialName: "Sullivan’s Exterior Cleaning and Landscape",
   shortName: "Sullivan’s Exterior",
   phoneDisplay: "(530) 485-9047",

@@ -1,4 +1,4 @@
-﻿import { z } from "zod";
+import { z } from "zod";
 const req = (n:string)=>z.string().trim().min(1,`${n} is required`);
 export const quoteSchema = z.object({
   fullName:req("Full Name"), phone:req("Phone Number"), address:req("Service Address"),

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { services } from "@/config/site";
 export const metadata: Metadata = { title: "Services" };
 export default function ServicesPage() {

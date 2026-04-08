@@ -1,4 +1,4 @@
-﻿import Link from "next/link";
+import Link from "next/link";
 import { business } from "@/config/site";
 export default async function SuccessPage({searchParams}:{searchParams:Promise<{type?:string}>}) {
   const p = await searchParams;

@@ -1,4 +1,4 @@
-﻿import { Resend } from "resend";
+import { Resend } from "resend";
 import { business } from "@/config/site";
 
 function requiredEnv(name:string){ const v=process.env[name]; if(!v) throw new Error(`Missing env: ${name}`); return v; }
