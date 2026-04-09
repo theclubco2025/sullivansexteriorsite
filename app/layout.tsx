@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="container-shell py-4 flex items-center justify-between">
             <a href="/" className="flex items-center" aria-label={`${business.officialName} home`}>
               <img
-                src="/logo.jpeg"
+                src="/"
                 alt={`${business.officialName} logo`}
                 className="h-14 w-auto object-contain sm:h-16"
               />
