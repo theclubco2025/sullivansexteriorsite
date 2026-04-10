@@ -1,4 +1,4 @@
-import { business } from "@/config/site";
+﻿import { business } from "@/config/site";
 
 const services = [
   { title: "Lawn Care", desc: "Routine mowing and cleanup to keep your yard neat and manageable." },
@@ -33,19 +33,18 @@ export default function HomePage() {
               <a href={business.phoneHref} className="rounded-md border border-brand-100 bg-brand-700 px-5 py-3 text-sm font-semibold text-white hover:bg-brand-600">Call Now</a>
             </div>
             <ul className="mt-8 grid gap-2 text-sm sm:grid-cols-2">
-              <li className="rounded-md border border-white/20 bg-white/10 px-3 py-2">âœ“ Free estimates</li>
-              <li className="rounded-md border border-white/20 bg-white/10 px-3 py-2">âœ“ 7 days a week</li>
-              <li className="rounded-md border border-white/20 bg-white/10 px-3 py-2">âœ“ 7:00 AM â€“ 5:00 PM</li>
-              <li className="rounded-md border border-white/20 bg-white/10 px-3 py-2">âœ“ Residential minimum starts at $199</li>
+              <li className="rounded-md border border-white/20 bg-white/10 px-3 py-2"> Free estimates</li>
+              <li className="rounded-md border border-white/20 bg-white/10 px-3 py-2"> 7 days a week</li>
+              <li className="rounded-md border border-white/20 bg-white/10 px-3 py-2"> 7:00 AM  5:00 PM</li>
+              <li className="rounded-md border border-white/20 bg-white/10 px-3 py-2"> Residential minimum starts at $199</li>
             </ul>
           </div>
           <div className="rounded-2xl border border-white/20 bg-white/95 p-6 text-slate-900 shadow-2xl">
-            <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">Sullivanâ€™s Exterior</p>
+            <p className="text-sm font-semibold uppercase tracking-wide text-brand-700">Sullivans Exterior</p>
             <h2 className="mt-2 text-2xl font-bold">Trusted service, clear process.</h2>
             <div className="mt-6 rounded-xl border border-brand-100 bg-brand-50 p-4">
-              <img src="/logo.jpeg.jpeg" alt="Sullivanâ€™s Exterior logo" className="mx-auto w-full max-w-xs rounded object-contain" />
-            </div>
-            <p className="mt-5 text-sm text-slate-600">Open daily 7:00 AM â€“ 5:00 PM â€¢ Cash & electronic payment accepted</p>
+</div>
+            <p className="mt-5 text-sm text-slate-600">Open daily 7:00 AM  5:00 PM  Cash & electronic payment accepted</p>
           </div>
         </div>
       </section>
@@ -53,12 +52,12 @@ export default function HomePage() {
       <section className="border-y border-brand-100 bg-brand-50">
         <div className="container-shell py-5">
           <ul className="grid gap-2 text-sm font-medium text-brand-900 sm:grid-cols-2 lg:grid-cols-3">
-            <li>âœ“ Free estimates</li>
-            <li>âœ“ Extended service radius available</li>
-            <li>âœ“ Transportation fee may be waived nearby</li>
-            <li>âœ“ Residential minimum starts at $199</li>
-            <li>âœ“ Recurring service available</li>
-            <li>âœ“ Sacramento to Tahoe service area</li>
+            <li> Free estimates</li>
+            <li> Extended service radius available</li>
+            <li> Transportation fee may be waived nearby</li>
+            <li> Residential minimum starts at $199</li>
+            <li> Recurring service available</li>
+            <li> Sacramento to Tahoe service area</li>
           </ul>
         </div>
       </section>
@@ -80,7 +79,7 @@ export default function HomePage() {
 
       <section className="bg-slate-50 py-20">
         <div className="container-shell">
-          <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">Why Choose Sullivanâ€™s Exterior</h2>
+          <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">Why Choose Sullivans Exterior</h2>
           <div className="mt-10 grid gap-5 md:grid-cols-2">
             {whyChoose.map((w) => (
               <article key={w.title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -118,3 +117,4 @@ export default function HomePage() {
     </>
   );
 }
+
