@@ -21,7 +21,7 @@ export async function POST(request: Request) {
       `Project Details: ${parsed.data.details || "Not provided"}`,
       u ? `Photo Upload: ${u.filename} (${u.mimeType}, ${u.sizeBytes} bytes)` : "Photo Upload: Not provided"
     ].join("\n");
-    await sendLeadEmail({ subject: "New Quote Request — Sullivan’s Exterior", text: txt });
+    await sendLeadEmail({ subject: "New Quote Request â€” Sullivan’s Exterior", text: txt });
     return NextResponse.json({ ok: true });
   } catch {
     return NextResponse.json({ error: "Sorry, submission failed. Please call us directly." }, { status: 500 });
